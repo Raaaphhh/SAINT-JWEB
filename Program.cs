@@ -5,7 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Ajouter la BDD PostgreSQL
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseNpgsql(builder.Configuration.GetConnectionString("Default")));
 
 // Ajouter les services MVC + TempData pour les sessions
 builder.Services.AddControllersWithViews()
