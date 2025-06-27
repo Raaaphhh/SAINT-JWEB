@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@if (TempData["CompteDejaUse"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["CompteDejaUse"]
+    </div>
+}
+@if (TempData["CreateAccountSucc"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["CreateAccountSucc"]
+    </div>
+}
+
+<div class="text-center">
+    <h1 class="display-4">Bienvenue</h1>
+    <h1>Jeu du SAINT - J</h1>
+    <h2>Edition 2025</h2>
+</div>  
+
+<br/>
+
+<div class="text-center">
+    <a asp-controller="User" asp-action="Connexion" class="btn btn-primary">Se connecter</a>
+    <a asp-controller="User" asp-action="Inscription" class="btn btn-secondary">S'inscrire</a>
+</div>

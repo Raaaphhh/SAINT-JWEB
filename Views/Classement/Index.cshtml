@@ -1,0 +1,33 @@
+@model List<SAINTJWebApp.ViewModels.ClassementViewModel>
+
+
+@{
+    ViewData["Title"] = "Classement des joueurs";
+}
+
+<h2 class="text-center mb-4">🏆 Classement général</h2>
+
+<table class="table table-bordered text-center">
+    <thead class="table-dark">
+    <tr>
+        <th>Position</th>
+        <th>Pseudo</th>
+        <th>Score</th>
+    </tr>
+    </thead>
+    <tbody>
+    @for (int i = 0; i < Model.Count; i++)
+    {
+        var player = Model[i];
+        <tr class="@(i == 0 ? "table-warning" : i == 1 ? "table-secondary" : i == 2 ? "table-info" : "")">
+            <td>@(i + 1)</td>
+            <td>@player.pseudo</td>
+            <td>@player.score pts</td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+<br/>
+
+<a asp-action="Index" asp-controller="Menu" class="text-center">Retour</a>

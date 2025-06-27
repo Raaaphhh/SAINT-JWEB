@@ -1,0 +1,35 @@
+@model SAINTJWebApp.Models.User
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>title</title>
+</head>
+<body>
+<div class="text-center">
+    <h1>Saint-J Menu</h1>
+    <br/>
+    <a asp-action="Index" asp-controller="Classement" class="btn  btn-outline-dark">Classement</a>
+    <br/><br/>
+    <a asp-action="ListeDefis" asp-controller="Defi" class="btn btn-outline-dark">Défis</a>
+    <br/><br/>
+    <a class="btn btn-outline-dark">Votre Contrat</a>
+    <br/><br/>
+    @* essayer pour le contrat de faire un pdf qui se genere avec le bon de la personne connecté.  *@
+    <a class="btn btn-outline-dark">Règles du jeu</a>
+    
+    <br/><br/>
+
+
+    @if (ViewBag.Score != null)
+    {
+        <div class="alert alert-success">
+            Score actuel : <strong>@ViewBag.Score pts</strong>
+        </div>
+    }
+
+
+</div>
+</body>
+</html>

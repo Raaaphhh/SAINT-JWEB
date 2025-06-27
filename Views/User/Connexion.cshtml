@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Connexion</title>
+</head>
+<body>
+
+
+<h1 class="text-center">Connexion</h1>
+
+<br/>
+
+@if (TempData["LoginError"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["LoginError"]
+    </div>
+}
+
+@if (TempData["LoginSuccess"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["LoginSuccess"]
+    </div>
+}
+
+<div class="text-center">
+    <form asp-action="Connexion" asp-controller="User" method="post">
+        <div class="mb-3">
+            <label for="userName" class="form-label">Pseudo</label>
+            <input type="text" name="userName" class="form-control" id="userName">
+        </div>
+        <div class="mb-3">
+            <label for="Password" class="form-label">Mot de passe</label>
+            <input type="password" name="password" class="form-control" id="exampleInputPassword1">
+        </div>
+
+        <button type="submit" class="btn btn-primary">Connexion</button>
+    </form>
+</div>
+</body>
+</html>
