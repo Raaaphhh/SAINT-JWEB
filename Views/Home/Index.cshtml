@@ -23,6 +23,31 @@
 
 <br/>
 
+<div id="carouselAccueil" class="carousel slide" data-bs-ride="carousel" data-bs-touch="true">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="~/images/IMG_0003.jpeg" class="d-block w-100" alt="Photo 1">
+        </div>
+        <div class="carousel-item">
+            <img src="~/images/IMG_6641.jpeg" class="d-block w-100" alt="Photo 2">
+        </div>
+        <div class="carousel-item">
+            <img src="~/images/IMG_9880.jpeg" class="d-block w-100" alt="Photo 3">
+        </div>
+        <!-- Ajoute d'autres <div class="carousel-item"> ici pour chaque image -->
+    </div>
+
+    <!-- Flèches de navigation -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselAccueil" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselAccueil" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </button>
+</div>
+
+<br/>
+
 <div class="text-center">
     <a asp-controller="User" asp-action="Connexion" class="btn btn-primary">Se connecter</a>
     <a asp-controller="User" asp-action="Inscription" class="btn btn-secondary">S'inscrire</a>

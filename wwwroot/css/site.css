@@ -22,3 +22,27 @@ body {
   background-color: white;
   color: black;
 }
+
+.carousel-item img {
+  width: 100%;
+  max-width: 300px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin: 0 auto;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .carousel-item img {
+    height: 500px;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel-item img {
+    height: 500px;
+  }
+}
+
+
