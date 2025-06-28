@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "pgZu2iHxeSad+s69cf85R/kBznOv82D5oqmiEkS5O/8=",
+  "Hash": "UKiAPlSahH73KRIiYlNqlxoqX3RJvueJdMqAHe/0aOg=",
   "Source": "SAINTJWebApp",
   "BasePath": "_content/SAINTJWebApp",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/raphaeldescamps/RiderProjects/SAINTJWebApp/SAINTJWebApp/obj/Debug/net8.0/scopedcss/projectbundle/SAINTJWebApp.bundle.scp.css"
+    },
+    {
+      "Identity": "/Users/raphaeldescamps/RiderProjects/SAINTJWebApp/SAINTJWebApp/wwwroot/apple-touch-icon.png",
+      "SourceId": "SAINTJWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/raphaeldescamps/RiderProjects/SAINTJWebApp/SAINTJWebApp/wwwroot/",
+      "BasePath": "_content/SAINTJWebApp",
+      "RelativePath": "apple-touch-icon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/apple-touch-icon.png"
     },
     {
       "Identity": "/Users/raphaeldescamps/RiderProjects/SAINTJWebApp/SAINTJWebApp/wwwroot/css/site.css",

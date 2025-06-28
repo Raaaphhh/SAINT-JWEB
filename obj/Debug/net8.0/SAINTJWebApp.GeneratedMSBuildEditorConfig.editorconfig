@@ -26,6 +26,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/raphaeldescamps/RiderProjects/SAINTJWebApp/SAINTJWebApp
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/raphaeldescamps/RiderProjects/SAINTJWebApp/SAINTJWebApp/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/raphaeldescamps/RiderProjects/SAINTJWebApp/SAINTJWebApp/Views/Classement/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xhc3NlbWVudC9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

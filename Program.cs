@@ -3,7 +3,7 @@ using SAINTJWebApp.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// 🔁 Convertir DATABASE_URL (Railway) vers une connection string PostgreSQL
+// 🔁 Convertit DATABASE_URL (Railway) en connection string PostgreSQL
 var databaseUrl = Environment.GetEnvironmentVariable("DATABASE_URL");
 if (!string.IsNullOrEmpty(databaseUrl))
 {
@@ -13,18 +13,17 @@ if (!string.IsNullOrEmpty(databaseUrl))
     var connectionString =
         $"Host={uri.Host};Port={uri.Port};Username={userInfo[0]};Password={userInfo[1]};Database={uri.AbsolutePath.TrimStart('/')};SSL Mode=Require;Trust Server Certificate=true;";
 
-    builder.Configuration["ConnectionStrings:Default"] = connectionString;
+    builder.Configuration["ConnectionStrings:DefaultConnection"] = connectionString;
 }
 
-// ✅ Ajouter la BDD PostgreSQL
+// ✅ Ajoute la BDD PostgreSQL
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("Default")));
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// ✅ Ajouter les services MVC + TempData pour les sessions
+// ✅ Services MVC + sessions
 builder.Services.AddControllersWithViews()
     .AddSessionStateTempDataProvider();
 
-// ✅ Ajouter la gestion des sessions
 builder.Services.AddSession();
 
 var app = builder.Build();
