@@ -25,24 +25,19 @@ body {
 
 .carousel-item img {
   width: 100%;
-  max-width: 300px;
-  height: 500px;
+  max-height: 90vh; /* prend jusqu’à 90% de la hauteur visible */
   object-fit: cover;
-  border-radius: 20px;
-  margin: 0 auto;
+  border-radius: 1rem;
+  margin: auto;
   display: block;
 }
 
-@media (max-width: 768px) {
+/* Optionnel : pour les très petits écrans */
+@media (max-width: 400px) {
   .carousel-item img {
-    height: 500px;
+    max-height: 85vh;
   }
 }
 
-@media (max-width: 480px) {
-  .carousel-item img {
-    height: 500px;
-  }
-}
 
 
