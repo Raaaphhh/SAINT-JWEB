@@ -24,19 +24,15 @@ body {
 }
 
 .carousel-item img {
-  width: 100%;
-  max-height: 90vh; 
+  width: 90%;
+  max-height: 80vh; 
   object-fit: cover;
   border-radius: 1rem;
   margin: auto;
   display: block;
 }
 
-@media (max-width: 330px) {
-  .carousel-item img {
-    max-height: 65vh;
-  }
-}
+
 
 
 
