@@ -1,0 +1,25 @@
+@model SAINTJWebApp.Models.User
+
+<div class="modal fade" id="modalModifierScore" tabindex="-1" aria-labelledby="modalModifierScoreLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form asp-action="ModifierScore" method="post">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalModifierScoreLabel">Modifier le score de </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fermer"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="hidden" id="inputUserId" name="idUSer" />
+                    <div class="mb-3">
+                        <label asp-for="score" class="form-label">Score</label>
+                        <input asp-for="score" class="form-control" id="inputUserScore" />
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
+                    <button type="submit" class="btn btn-primary">Modifier</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

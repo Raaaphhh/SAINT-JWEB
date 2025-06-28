@@ -9,8 +9,7 @@ namespace SAINTJWebApp.ViewModels
     {
         public List<Defi> Defis { get; set; }
         public List<User> Users { get; set; }
+        public Dictionary<string, List<Defi>> DefisParDifficulte { get; set; } = new();
 
     }
-
-    
 }
