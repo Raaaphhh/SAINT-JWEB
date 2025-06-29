@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SAINTJWebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+507f8c4d88ad3e9eb4030b45c8745fd42292390d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fe48c2b8d865841056a21b43db69921bbb873d23")]
 [assembly: System.Reflection.AssemblyProductAttribute("SAINTJWebApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SAINTJWebApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

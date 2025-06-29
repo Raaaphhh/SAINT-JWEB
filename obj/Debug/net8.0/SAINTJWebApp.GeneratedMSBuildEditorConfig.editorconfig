@@ -38,12 +38,28 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vX01vZGlmaWVyU2NvcmUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/raphaeldescamps/RiderProjects/SAINTJWebApp/SAINTJWebApp/Views/BurgerMenu/Apropos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQnVyZ2VyTWVudS9BcHJvcG9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/raphaeldescamps/RiderProjects/SAINTJWebApp/SAINTJWebApp/Views/BurgerMenu/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQnVyZ2VyTWVudS9Db250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/raphaeldescamps/RiderProjects/SAINTJWebApp/SAINTJWebApp/Views/BurgerMenu/Credit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQnVyZ2VyTWVudS9DcmVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/raphaeldescamps/RiderProjects/SAINTJWebApp/SAINTJWebApp/Views/Classement/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2xhc3NlbWVudC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/raphaeldescamps/RiderProjects/SAINTJWebApp/SAINTJWebApp/Views/Contrat/ContratGenerate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29udHJhdC9Db250cmF0R2VuZXJhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/raphaeldescamps/RiderProjects/SAINTJWebApp/SAINTJWebApp/Views/Contrat/ContratVide.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29udHJhdC9Db250cmF0VmlkZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/raphaeldescamps/RiderProjects/SAINTJWebApp/SAINTJWebApp/Views/Defi/Index.cshtml]

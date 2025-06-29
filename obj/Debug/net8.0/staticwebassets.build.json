@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Fn3Pr07jLG6ZzsNMMQt/y837W4uRj4/+C4cZYVGkB1M=",
+  "Hash": "SS7PZToNwy9IzwWkrXC5sc01jfYUzBTAcP5XzYQ6SO0=",
   "Source": "SAINTJWebApp",
   "BasePath": "_content/SAINTJWebApp",
   "Mode": "Default",
@@ -1326,6 +1326,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Identity": "/Users/raphaeldescamps/RiderProjects/SAINTJWebApp/SAINTJWebApp/wwwroot/pdfs/saintJpdf.pdf",
+      "SourceId": "SAINTJWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/raphaeldescamps/RiderProjects/SAINTJWebApp/SAINTJWebApp/wwwroot/",
+      "BasePath": "_content/SAINTJWebApp",
+      "RelativePath": "pdfs/saintJpdf.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/pdfs/saintJpdf.pdf"
     }
   ]
 }
