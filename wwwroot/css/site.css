@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Bree+Serif&display=swap');
+
 html {
   font-size: 14px;
 }
@@ -18,6 +20,7 @@ html {
 }
 
 body {
+  font-family: 'Bowlby One SC', cursive;
   margin-bottom: 60px;
   background-color: white;
   color: black;
@@ -31,8 +34,3 @@ body {
   margin: auto;
   display: block;
 }
-
-
-
-
-

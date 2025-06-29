@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets/apple-touch-icon.png"
     },
     {
+      "Id": "/Users/raphaeldescamps/RiderProjects/SAINTJWebApp/SAINTJWebApp/wwwroot/css/menu.css",
+      "PackagePath": "staticwebassets/css/menu.css"
+    },
+    {
       "Id": "/Users/raphaeldescamps/RiderProjects/SAINTJWebApp/SAINTJWebApp/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
